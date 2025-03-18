@@ -60,6 +60,7 @@ Naudodami input() funkciją paprašykite vartotojo įvesti du skaičius ir atlik
 8. Užduotis: Klaidų tvarkymas su try-except
 
 Paprašykite vartotojo įvesti skaičių, tačiau naudokite klaidų tvarkymo mechanizmą (try-except), kad būtų užfiksuota klaida, jei vartotojas įveda tekstą vietoj skaičiaus. Jei klaida įvyksta, išveskite pranešimą, kad įvestas neteisingas duomenų tipas.
+
 9. Užduotis: for ciklas ir sąrašas
 
 Sukurkite sąrašą su sveikaisiais skaičiais nuo 1 iki 10 (įskaitant). Naudodami for ciklą, išveskite:
