@@ -51,8 +51,6 @@ Saugumas: Visi vartotojo slaptažodžiai turi būti užšifruoti naudojant šiuo
 
 Patikimumas: Sistema turi būti pasiekiama 99,9% laiko per metus. Jei įvyksta sutrikimai, turi būti numatyti atstatymo planai.
 
-Skalavimas: Sistema turi galėti palaikyti 1 milijoną aktyvių vartotojų ir greitai prisitaikyti prie didėjančio srauto.
-
 3. Naudotojo reikalavimai – pavyzdžiai
 
 Sistema: Naujienų portalas
