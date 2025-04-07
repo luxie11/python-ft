@@ -1,0 +1,2 @@
+def testas():
+    print("test")
