@@ -18,7 +18,7 @@ Aha, jeigu nori **nusiklonuoti** _privatų_ repozitorijų į savo kompiuterį �
 
 ---
 
-### 🧭 3. **Klonavimas privačios repositorijos**
+### 3. **Klonavimas privačios repositorijos**
 
 Terminale:
 
