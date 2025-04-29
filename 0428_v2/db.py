@@ -59,15 +59,15 @@ cursor.executemany('''
 INSERT INTO cars (model_id, color, price) VALUES (?, ?, ?)
 ''', [
     (1, "Red", 25000),
-    (1, "Blue", 27000),
-    (2, "Black", 32000),
-    (2, "White", 33000),
-    (3, "Silver", 55000),
-    (3, "Grey", 56000),
-    (4, "Yellow", 40000),
-    (4, "Red", 42000),
-    (5, "Blue", 35000),
-    (5, "White", 37000)
+    (2, "Blue", 27000),
+    (3, "Black", 32000),
+    (4, "White", 33000),
+    (5, "Silver", 55000),
+    (6, "Grey", 56000),
+    (7, "Yellow", 40000),
+    (8, "Red", 42000),
+    (9, "Blue", 35000),
+    (10, "White", 37000)
 ])
 
 conn.commit()
