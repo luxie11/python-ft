@@ -1,0 +1,1 @@
+ALTER TABLE darbuotojai ADD COLUMN amzius integer
