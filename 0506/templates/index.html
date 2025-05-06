@@ -1,0 +1,14 @@
+<h1>
+    Index
+</h1>
+
+{% for i in all_projektas %}
+<div>
+    {{ i.pavadinimas }} / {{ i.kaina }} / {{ i.kainaSuPVM }} <a href="/projektas/{{ i.id }}">Istrinti</a>
+</div>
+{% endfor %}
+
+<form method="get">
+    <input name="search" type="text" />
+    <input name="submit" type="submit" value="Search">
+</form>
