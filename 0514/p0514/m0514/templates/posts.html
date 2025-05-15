@@ -1,0 +1,15 @@
+<h2>Posts</h2>
+<a href="/new">Sukurti nauja</a>
+<div>
+    <div style="color: red">
+    {% if error %}
+        {{error}}
+    {% endif %}
+    </div>
+
+    <ul>
+        {% for post in posts %}
+        <li>{{post.title}} / {{post.content}} / <form method="POST" action="delete/{{post.id}}/">{% csrf_token %}<button type="submit" style="color:red" >Delete</button></form></li>
+        {% endfor %}
+    </ul>
+</div>
