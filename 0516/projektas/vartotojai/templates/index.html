@@ -1,0 +1,11 @@
+{% include "header.html" %}
+
+{% if user.is_authenticated %}
+    Sveiki, {{ user.username }}! <a href="{% url 'logout' %}">Atsijungti</a>
+{% else %}
+    <a href="{% url 'login' %}">Prisijungti</a> |
+    <a href="{% url 'register' %}">Registruotis</a>
+{% endif %}
+
+
+<!--Dokumentacija https://getbootstrap.com/docs/5.3/forms/overview/ -->
